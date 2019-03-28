@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <form (ngSubmit)='submit()' #quoteForm='ngForm'>
       <div class="form-group">
 
         <label for="quote">Quote</label>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="form-group">
-        <label for="submitter">Submitted by</label>
+        <label for="submit quote">Submitted </label>
       <input type="text" class="form-control" id="submitter"[(ngModel)]=newQuote.submitter name="submitter" required #submitter="ngModel">
       </div>
 
