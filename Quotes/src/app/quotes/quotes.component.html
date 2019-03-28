@@ -1,0 +1,19 @@
+<h1>QUOTES</h1>
+<hr>
+<h1>Quotable Quotes</h1>
+<hr>
+<link rel="stylesheet" href="/css/quotes.component.css">
+<div class="container">
+    <div class="row">
+        <app-quotes-form></app-quotes-form></div>
+<ul>
+   <div *ngFor='let quote of quotes;let i = index'>
+        <li >{{quote.name}}</li>
+        <button (click)='toogleDetails(i)'>See more</button>
+        <app-quotes-details *ngIf="quote.showDescription" [quote]='quote'(isComplete)= 'completeQuote($event,i)'></app-quotes-details>
+<button type="button" name="button">Upvote</button>
+<button type="button" name="button">Downvote</button>
+</div>
+</ul>
+<p *ngIf='quotes.length > 5'>You have too many quotes</p>
+</div>
