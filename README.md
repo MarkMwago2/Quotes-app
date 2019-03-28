@@ -2,26 +2,30 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
-## Development server
+Demo
+Here is a live link to the webpage https://github.com/MarkMwago2/Quotes-app)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+BDD
+Project : Quotes
 
-## Code scaffolding
+Behavior Driven Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+user input authors name. user input quotes. user submits to publish quote. user is allowed to view and rate other quotes.
 
-## Build
+Tech
+quotes was made using a number of Angular 7, HTML, CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Clone from github
+On GitHub, navigate to the main page of the repository. Under the repository name, click Clone or download. In the Clone with HTTPs section, click to copy the clone URL for the repository. Open Terminal. Change the current working directory to the location where you want the cloned directory to be made. Type git clone, and then paste the URL you copied in Step 2. Press Enter. Your local clone will be created. Have fun!
 
-## Running unit tests
+Author
+Author: MarkMwago2 Date: Mon 28 March 2019
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Licence
+MIT License
 
-## Running end-to-end tests
+Copyright (c) 2019 MarkMwago
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
